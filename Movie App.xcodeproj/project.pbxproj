@@ -15,6 +15,7 @@
 		CEB6989C1BB3926100194AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB6989A1BB3926100194AC5 /* LaunchScreen.storyboard */; };
 		CEB698A71BB3926100194AC5 /* Movie_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB698A61BB3926100194AC5 /* Movie_AppTests.m */; };
 		CEB698B21BB3926100194AC5 /* Movie_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB698B11BB3926100194AC5 /* Movie_AppUITests.m */; };
+		CED945EE1BB3955800568420 /* LocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED945ED1BB3955800568420 /* LocationTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CEB698AD1BB3926100194AC5 /* Movie AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB698B11BB3926100194AC5 /* Movie_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_AppUITests.m; sourceTree = "<group>"; };
 		CEB698B31BB3926100194AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED945EC1BB3955800568420 /* LocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewController.h; sourceTree = "<group>"; };
+		CED945ED1BB3955800568420 /* LocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				CEB6989A1BB3926100194AC5 /* LaunchScreen.storyboard */,
 				CEB6989D1BB3926100194AC5 /* Info.plist */,
 				CEB6988C1BB3926100194AC5 /* Supporting Files */,
+				CED945EC1BB3955800568420 /* LocationTableViewController.h */,
+				CED945ED1BB3955800568420 /* LocationTableViewController.m */,
 			);
 			path = "Movie App";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED945EE1BB3955800568420 /* LocationTableViewController.m in Sources */,
 				CEB698941BB3926100194AC5 /* ViewController.m in Sources */,
 				CEB698911BB3926100194AC5 /* AppDelegate.m in Sources */,
 				CEB6988E1BB3926100194AC5 /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				CEB698B81BB3926100194AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEB698B91BB3926100194AC5 /* Build configuration list for PBXNativeTarget "Movie AppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				CEB698BB1BB3926100194AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEB698BC1BB3926100194AC5 /* Build configuration list for PBXNativeTarget "Movie AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				CEB698BE1BB3926100194AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
